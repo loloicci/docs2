@@ -12,6 +12,9 @@ We have the binary ready. Now it is time to see some wasm action. You can use [G
 We generated a wasm binary executable in the previous chapter. Let's put it into use. Now, we will
 upload the code to the blockchain. Afterwards, you can download the bytecode to verify it is proper:
 
+**For those who come here from [testnets](../testnets/testnets.md) section**: Swap `wasmd` and `wasmcli` to testnet
+specific executables in the scripts below.
+
 ```bash
 # see how many codes we have now
 wasmcli query wasm list-code
